@@ -1,0 +1,27 @@
+{
+  "name": "galen-first-project",
+  "version": "1.0.0",
+  "description": "http://galenframework.com/docs/tutorial-first-project/",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "galen check test/*.gspec --url http://samples.galenframework.com/tutorial1/tutorial1.html --size 640x480 --htmlreport ./reports"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-barry-kenzan/galen-first-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paul-barry-kenzan/galen-first-project/issues"
+  },
+  "homepage": "https://github.com/paul-barry-kenzan/galen-first-project#readme",
+  "devDependencies": {
+    "galenframework-cli": "2.3.4",
+    "selenium-webdriver": "3.4.0"
+  }
+}
